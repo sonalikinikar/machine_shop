@@ -1,0 +1,197 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{2223}/{####}",
+ "creation": "2023-03-30 17:10:22.756507",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "enterd_by",
+  "column_break_2",
+  "plan_number",
+  "column_break_4",
+  "plan_date",
+  "column_break_6",
+  "production_date",
+  "section_break_8",
+  "machine_name",
+  "column_break_10",
+  "supervisor_name",
+  "column_break_12",
+  "operator_name",
+  "column_break_14",
+  "shift",
+  "section_break_16",
+  "operation_timemin",
+  "column_break_18",
+  "utilized_time",
+  "column_break_20",
+  "remaining_time",
+  "section_break_22",
+  "material_information",
+  "section_break_24",
+  "down_time_details",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "default": "User",
+   "fieldname": "enterd_by",
+   "fieldtype": "Link",
+   "label": "Enterd By",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "plan_number",
+   "fieldtype": "Data",
+   "label": "Plan Number"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "plan_date",
+   "fieldtype": "Date",
+   "label": "Plan Date"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "production_date",
+   "fieldtype": "Date",
+   "label": "Production Date"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "machine_name",
+   "fieldtype": "Link",
+   "label": "Machine Name",
+   "options": "Machine"
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "supervisor_name",
+   "fieldtype": "Link",
+   "label": "Supervisor Name",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "operator_name",
+   "fieldtype": "Link",
+   "label": "Operator Name",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "shift",
+   "fieldtype": "Select",
+   "label": "Shift",
+   "options": "I\nII\nIII"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "480",
+   "fieldname": "operation_timemin",
+   "fieldtype": "Data",
+   "label": "Operation Time(Min)"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "utilized_time",
+   "fieldtype": "Data",
+   "label": "Utilized Time"
+  },
+  {
+   "fieldname": "column_break_20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remaining_time",
+   "fieldtype": "Data",
+   "label": "Remaining Time"
+  },
+  {
+   "fieldname": "section_break_22",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "material_information",
+   "fieldtype": "Table",
+   "label": "Material Information",
+   "options": "Plan For Production"
+  },
+  {
+   "fieldname": "section_break_24",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "down_time_details",
+   "fieldtype": "Table",
+   "label": "Down Time Details",
+   "options": "Machine Down Time"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Daily Producation Against Plan",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-03-31 15:51:36.287846",
+ "modified_by": "Administrator",
+ "module": "Machine Shop",
+ "name": "Daily Producation Against Plan",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

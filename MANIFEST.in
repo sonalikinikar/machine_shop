@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include machine_shop *.css
+recursive-include machine_shop *.csv
+recursive-include machine_shop *.html
+recursive-include machine_shop *.ico
+recursive-include machine_shop *.js
+recursive-include machine_shop *.json
+recursive-include machine_shop *.md
+recursive-include machine_shop *.png
+recursive-include machine_shop *.py
+recursive-include machine_shop *.svg
+recursive-include machine_shop *.txt
+recursive-exclude machine_shop *.pyc

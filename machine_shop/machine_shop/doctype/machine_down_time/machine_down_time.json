@@ -1,0 +1,116 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-03-31 15:47:08.344846",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "workstation",
+  "operator",
+  "column_break_4",
+  "from_time",
+  "to_time",
+  "downtime",
+  "downtime_reason_section",
+  "stop_reason",
+  "column_break_9",
+  "remarks",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "DT-",
+   "reqd": 1
+  },
+  {
+   "fieldname": "workstation",
+   "fieldtype": "Link",
+   "label": "Workstation / Machine",
+   "options": "Machine",
+   "reqd": 1
+  },
+  {
+   "fieldname": "operator",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Operator",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "from_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "From Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "to_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "To Time",
+   "reqd": 1
+  },
+  {
+   "description": "In Mins",
+   "fieldname": "downtime",
+   "fieldtype": "Float",
+   "label": "Downtime",
+   "read_only": 1
+  },
+  {
+   "fieldname": "downtime_reason_section",
+   "fieldtype": "Section Break",
+   "label": "Downtime Reason"
+  },
+  {
+   "fieldname": "stop_reason",
+   "fieldtype": "Select",
+   "label": "Stop Reason",
+   "options": "\nExcessive machine set up time\nUnplanned machine maintenance\nOn-machine press checks\nMachine operator errors\nMachine malfunction\nElectricity down\nOther",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Downtime Entry",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2023-03-31 15:47:08.344846",
+ "modified_by": "Administrator",
+ "module": "Machine Shop",
+ "name": "Machine Down Time",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "workstation",
+ "track_changes": 1
+}
