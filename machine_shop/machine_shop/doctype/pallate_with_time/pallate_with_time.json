@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-06 17:23:16.397124",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "pallate",
+  "time_in_mm",
+  "time_in_ss"
+ ],
+ "fields": [
+  {
+   "fieldname": "pallate",
+   "fieldtype": "Link",
+   "label": "Pallate",
+   "options": "Pallate"
+  },
+  {
+   "fieldname": "time_in_mm",
+   "fieldtype": "Data",
+   "label": "Time in MM"
+  },
+  {
+   "fieldname": "time_in_ss",
+   "fieldtype": "Data",
+   "label": "Time in Sec"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-04-06 17:26:10.957400",
+ "modified_by": "Administrator",
+ "module": "Machine Shop",
+ "name": "Pallate With Time",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

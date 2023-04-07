@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-06 11:34:45.972592",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "operation_number",
+  "symbol",
+  "product_characteristic",
+  "process_characteristic",
+  "machine",
+  "program_number",
+  "ficture",
+  "boring_weight",
+  "operation_cost",
+  "pdi"
+ ],
+ "fields": [
+  {
+   "fieldname": "operation_number",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Operation Number And Operation",
+   "options": "Operation List"
+  },
+  {
+   "fieldname": "symbol",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Symbol"
+  },
+  {
+   "fieldname": "product_characteristic",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Product Characteristic"
+  },
+  {
+   "fieldname": "process_characteristic",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Process Characteristic"
+  },
+  {
+   "fieldname": "machine",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Machine",
+   "options": "Machine"
+  },
+  {
+   "fieldname": "program_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Program Number"
+  },
+  {
+   "fieldname": "ficture",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ficture"
+  },
+  {
+   "fieldname": "boring_weight",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Boring Weight"
+  },
+  {
+   "fieldname": "operation_cost",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Operation Cost"
+  },
+  {
+   "fieldname": "pdi",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "PDI",
+   "options": "YES\nNO"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-04-06 15:08:05.706123",
+ "modified_by": "Administrator",
+ "module": "Machine Shop",
+ "name": "Operation Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

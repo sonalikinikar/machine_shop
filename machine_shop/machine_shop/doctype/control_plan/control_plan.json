@@ -1,0 +1,144 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-06 16:33:50.249426",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "material_name",
+  "pfd_revision_no",
+  "column_break_gh5xg",
+  "operation_number",
+  "cp_revision_number",
+  "column_break_znedw",
+  "plan_type",
+  "cp_origin_issue_date",
+  "column_break_n663c",
+  "cp_revision_date",
+  "drawing_number",
+  "column_break_how3w",
+  "revision_number",
+  "drawing_revision_number",
+  "column_break_bqhmv",
+  "drawing_revision_date",
+  "section_break_im4gi",
+  "machine_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "material_name",
+   "fieldtype": "Link",
+   "label": "Material Name",
+   "options": "Item"
+  },
+  {
+   "fieldname": "pfd_revision_no",
+   "fieldtype": "Data",
+   "label": "PFD Revision No"
+  },
+  {
+   "fieldname": "operation_number",
+   "fieldtype": "Link",
+   "label": "Operation Number",
+   "options": "Operation List"
+  },
+  {
+   "fieldname": "cp_revision_number",
+   "fieldtype": "Data",
+   "label": "CP Revision Number"
+  },
+  {
+   "fieldname": "plan_type",
+   "fieldtype": "Select",
+   "label": "Plan Type",
+   "options": "Production\nPrototype\nPre-Launch"
+  },
+  {
+   "fieldname": "column_break_znedw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cp_origin_issue_date",
+   "fieldtype": "Date",
+   "label": "CP Origin Issue Date"
+  },
+  {
+   "fieldname": "cp_revision_date",
+   "fieldtype": "Date",
+   "label": "CP Revision Date"
+  },
+  {
+   "fieldname": "drawing_number",
+   "fieldtype": "Data",
+   "label": "Drawing Number"
+  },
+  {
+   "fieldname": "revision_number",
+   "fieldtype": "Data",
+   "label": "Revision Number"
+  },
+  {
+   "fieldname": "drawing_revision_number",
+   "fieldtype": "Data",
+   "label": "Drawing Revision Number"
+  },
+  {
+   "fieldname": "drawing_revision_date",
+   "fieldtype": "Date",
+   "label": "Drawing Revision Date"
+  },
+  {
+   "fieldname": "column_break_gh5xg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_n663c",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_how3w",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_bqhmv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "machine_name",
+   "fieldtype": "Link",
+   "label": "Machine Name",
+   "options": "Machine"
+  },
+  {
+   "fieldname": "section_break_im4gi",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-04-06 16:46:12.521056",
+ "modified_by": "Administrator",
+ "module": "Machine Shop",
+ "name": "Control Plan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

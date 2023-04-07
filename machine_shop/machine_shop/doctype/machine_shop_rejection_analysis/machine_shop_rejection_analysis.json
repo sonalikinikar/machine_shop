@@ -1,0 +1,136 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-06 16:09:27.257811",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "transaction_date",
+  "column_break_swoxs",
+  "material_name",
+  "column_break_8xtdk",
+  "operation",
+  "column_break_ygnrn",
+  "rejection_quantity",
+  "column_break_ncee7",
+  "employee",
+  "section_break_5fn95",
+  "mr_quantity",
+  "column_break_sowbs",
+  "cr_quantity",
+  "column_break_gpkty",
+  "rework_quantity",
+  "amended_from",
+  "column_break_cyaux"
+ ],
+ "fields": [
+  {
+   "fieldname": "transaction_date",
+   "fieldtype": "Date",
+   "label": "Transaction Date"
+  },
+  {
+   "fieldname": "material_name",
+   "fieldtype": "Data",
+   "label": "Material Name"
+  },
+  {
+   "fieldname": "operation",
+   "fieldtype": "Data",
+   "label": "Operation"
+  },
+  {
+   "fieldname": "rejection_quantity",
+   "fieldtype": "Data",
+   "label": "Rejection Quantity"
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Data",
+   "label": "Employee"
+  },
+  {
+   "fieldname": "mr_quantity",
+   "fieldtype": "Data",
+   "label": "MR Quantity"
+  },
+  {
+   "fieldname": "cr_quantity",
+   "fieldtype": "Data",
+   "label": "CR Quantity"
+  },
+  {
+   "fieldname": "rework_quantity",
+   "fieldtype": "Data",
+   "label": "Rework Quantity"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Machine Shop Rejection Analysis",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_5fn95",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_8xtdk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ygnrn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ncee7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_swoxs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_sowbs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_gpkty",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_cyaux",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-04-06 16:14:35.217840",
+ "modified_by": "Administrator",
+ "module": "Machine Shop",
+ "name": "Machine Shop Rejection Analysis",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

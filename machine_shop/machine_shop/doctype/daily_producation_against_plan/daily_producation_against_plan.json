@@ -156,7 +156,7 @@
    "fieldname": "down_time_details",
    "fieldtype": "Table",
    "label": "Down Time Details",
-   "options": "Machine Down Time"
+   "options": "Down Time Details"
   },
   {
    "fieldname": "amended_from",
@@ -171,7 +171,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-03-31 15:51:36.287846",
+ "modified": "2023-04-06 15:48:33.660289",
  "modified_by": "Administrator",
  "module": "Machine Shop",
  "name": "Daily Producation Against Plan",
